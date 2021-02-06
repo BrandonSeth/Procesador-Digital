@@ -1,0 +1,269 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Feb  6 00:01:47 2021
+# Process ID: 9468
+# Current directory: C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.runs/synth_1
+# Command line: vivado.exe -log MCD_MCM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MCD_MCM.tcl
+# Log file: C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.runs/synth_1/MCD_MCM.vds
+# Journal file: C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MCD_MCM.tcl -notrace
+Command: synth_design -top MCD_MCM -part xc7a12ticsg325-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9820
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1026.145 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MCD_MCM' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd:35]
+INFO: [Synth 8-3491] module 'MUX_DE_X' declared at 'C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MUX_A.vhd:23' bound to instance 'MUXDEX' of component 'MUX_DE_X' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd:173]
+INFO: [Synth 8-638] synthesizing module 'MUX_DE_X' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MUX_A.vhd:37]
+INFO: [Synth 8-226] default block is never used [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MUX_A.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'MUX_DE_X' (1#1) [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MUX_A.vhd:37]
+INFO: [Synth 8-3491] module 'MUX_DE_Y' declared at 'C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MUX_B.vhd:23' bound to instance 'MUXDEY' of component 'MUX_DE_Y' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd:176]
+INFO: [Synth 8-638] synthesizing module 'MUX_DE_Y' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MUX_B.vhd:37]
+INFO: [Synth 8-226] default block is never used [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MUX_B.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'MUX_DE_Y' (2#1) [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MUX_B.vhd:37]
+INFO: [Synth 8-3491] module 'REG_SEL' declared at 'C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/DE_SELECCIONPSI.vhd:23' bound to instance 'SELECCCIONREGISTRO' of component 'REG_SEL' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd:179]
+INFO: [Synth 8-638] synthesizing module 'REG_SEL' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/DE_SELECCIONPSI.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'REG_SEL' (3#1) [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/DE_SELECCIONPSI.vhd:39]
+INFO: [Synth 8-3491] module 'REG_DE_X' declared at 'C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/REGA01.vhd:24' bound to instance 'REGITROX' of component 'REG_DE_X' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'REG_DE_X' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/REGA01.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'REG_DE_X' (4#1) [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/REGA01.vhd:34]
+INFO: [Synth 8-3491] module 'REG_DE_Y' declared at 'C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/REGB01.vhd:24' bound to instance 'REGISTROY' of component 'REG_DE_Y' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'REG_DE_Y' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/REGB01.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'REG_DE_Y' (5#1) [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/REGB01.vhd:34]
+INFO: [Synth 8-3491] module 'REG_SALIDA' declared at 'C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/REGSAL0.vhd:25' bound to instance 'REGOSALIDITA' of component 'REG_SALIDA' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd:187]
+INFO: [Synth 8-638] synthesizing module 'REG_SALIDA' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/REGSAL0.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'REG_SALIDA' (6#1) [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/REGSAL0.vhd:35]
+INFO: [Synth 8-3491] module 'SUM_DE_X' declared at 'C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/SUM_A.vhd:25' bound to instance 'SX' of component 'SUM_DE_X' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd:189]
+INFO: [Synth 8-638] synthesizing module 'SUM_DE_X' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/SUM_A.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'SUM_DE_X' (7#1) [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/SUM_A.vhd:34]
+INFO: [Synth 8-3491] module 'SUM_DE_Y' declared at 'C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/SUM_B.vhd:25' bound to instance 'SY' of component 'SUM_DE_Y' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd:191]
+INFO: [Synth 8-638] synthesizing module 'SUM_DE_Y' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/SUM_B.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'SUM_DE_Y' (8#1) [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/SUM_B.vhd:34]
+INFO: [Synth 8-3491] module 'RES_DE_X' declared at 'C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/RES_A.vhd:25' bound to instance 'RESTADEX' of component 'RES_DE_X' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd:193]
+INFO: [Synth 8-638] synthesizing module 'RES_DE_X' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/RES_A.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'RES_DE_X' (9#1) [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/RES_A.vhd:34]
+INFO: [Synth 8-3491] module 'RES_DE_Y' declared at 'C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/RES_B.vhd:24' bound to instance 'RESTADEY' of component 'RES_DE_Y' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd:195]
+INFO: [Synth 8-638] synthesizing module 'RES_DE_Y' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/RES_B.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'RES_DE_Y' (10#1) [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/RES_B.vhd:33]
+INFO: [Synth 8-3491] module 'COMPA' declared at 'C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/COMPA.vhd:25' bound to instance 'COMPARACION' of component 'COMPA' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd:197]
+INFO: [Synth 8-638] synthesizing module 'COMPA' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/COMPA.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'COMPA' (11#1) [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/COMPA.vhd:36]
+INFO: [Synth 8-3491] module 'U_C' declared at 'C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/U_CONTROL.vhd:25' bound to instance 'UNIDADDECONTROL' of component 'U_C' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd:199]
+INFO: [Synth 8-638] synthesizing module 'U_C' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/U_CONTROL.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'U_C' (12#1) [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/U_CONTROL.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'MCD_MCM' (13#1) [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd:35]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1026.145 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1026.145 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a12ticsg325-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1026.145 ; gain = 0.000
+INFO: [Device 21-403] Loading part xc7a12ticsg325-1L
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'PRESENT_S_reg' in module 'U_C'
+WARNING: [Synth 8-327] inferring latch for variable 'EQ_reg' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/COMPA.vhd:44]
+WARNING: [Synth 8-327] inferring latch for variable 'MAX_reg' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/COMPA.vhd:45]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   start |                      00000000001 |                             0000
+                   input |                      00000000010 |                             0001
+                   test1 |                      00000000100 |                             0010
+                    done |                      00000001000 |                             1010
+                   test2 |                      00000010000 |                             0011
+                   test3 |                      00000100000 |                             0100
+                  restax |                      00001000000 |                             1000
+                  restay |                      00010000000 |                             1001
+                   test4 |                      00100000000 |                             0101
+                   sumay |                      01000000000 |                             0111
+                   sumax |                      10000000000 |                             0110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'PRESENT_S_reg' using encoding 'one-hot' in module 'U_C'
+WARNING: [Synth 8-327] inferring latch for variable 'SELM1_reg' [C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/U_CONTROL.vhd:68]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1026.145 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 2     
+	   3 Input    8 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 5     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  11 Input   11 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 5     
+	   4 Input    8 Bit        Muxes := 2     
+	  11 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1     
+	  11 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 40 (col length:40)
+BRAMs: 40 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1026.145 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1026.145 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1026.145 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:43 . Memory (MB): peak = 1026.145 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:43 . Memory (MB): peak = 1026.145 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:43 . Memory (MB): peak = 1026.145 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:43 . Memory (MB): peak = 1026.145 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:43 . Memory (MB): peak = 1026.145 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:43 . Memory (MB): peak = 1026.145 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    10|
+|3     |LUT2   |    43|
+|4     |LUT3   |     4|
+|5     |LUT4   |    19|
+|6     |LUT5   |    18|
+|7     |LUT6   |     1|
+|8     |FDCE   |    51|
+|9     |FDPE   |     1|
+|10    |LD     |     2|
+|11    |LDC    |     1|
+|12    |LDCP   |     1|
+|13    |IBUF   |    20|
+|14    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------------+-----------+------+
+|      |Instance             |Module     |Cells |
++------+---------------------+-----------+------+
+|1     |top                  |           |   188|
+|2     |  COMPARACION        |COMPA      |     4|
+|3     |  REGISTROY          |REG_DE_Y   |    24|
+|4     |  REGITROX           |REG_DE_X   |    30|
+|5     |  REGOSALIDITA       |REG_SALIDA |     8|
+|6     |  RESTADEX           |RES_DE_X   |     2|
+|7     |  RESTADEY           |RES_DE_Y   |     2|
+|8     |  SELECCCIONREGISTRO |REG_SEL    |    33|
+|9     |  SX                 |SUM_DE_X   |     2|
+|10    |  SY                 |SUM_DE_Y   |     2|
+|11    |  UNIDADDECONTROL    |U_C        |    44|
++------+---------------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:43 . Memory (MB): peak = 1026.145 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:36 ; elapsed = 00:00:43 . Memory (MB): peak = 1026.145 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:43 . Memory (MB): peak = 1026.145 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1026.145 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1026.145 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  LD => LDCE: 2 instances
+  LDC => LDCE: 1 instance 
+  LDCP => LDCP (GND, LDCE, LUT3(x2), VCC): 1 instance 
+
+INFO: [Common 17-83] Releasing license: Synthesis
+54 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:54 . Memory (MB): peak = 1026.145 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.runs/synth_1/MCD_MCM.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MCD_MCM_utilization_synth.rpt -pb MCD_MCM_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Feb  6 00:02:51 2021...

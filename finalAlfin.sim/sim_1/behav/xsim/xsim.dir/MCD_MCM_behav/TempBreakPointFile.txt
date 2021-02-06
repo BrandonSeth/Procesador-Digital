@@ -1,0 +1,4 @@
+Breakpoint File Version 1.0
+59 true C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/REGDESEL.vhd
+58 true C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/U_CONTROL.vhd
+60 true C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/U_CONTROL.vhd

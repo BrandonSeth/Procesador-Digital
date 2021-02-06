@@ -1,0 +1,14 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MCD_MCM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/U_CONTROL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'U_C'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/COMPA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'COMPA'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/RES_A.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RES_DE_X'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/RES_B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RES_DE_Y'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/SUM_A.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SUM_DE_X'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/SUM_B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SUM_DE_Y'

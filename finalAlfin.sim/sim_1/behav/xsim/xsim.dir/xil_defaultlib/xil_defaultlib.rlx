@@ -1,0 +1,18 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/COMPA.vhd,1612580638,vhdl,,,,compa,,,,,,,,
+C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/DE_SELECCIONPSI.vhd,1612579956,vhdl,,,,reg_sel,,,,,,,,
+C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MCD_MCM.vhd,1612580885,vhdl,,,,mcd_mcm,,,,,,,,
+C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MUX_A.vhd,1612579855,vhdl,,,,mux_de_x,,,,,,,,
+C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/MUX_B.vhd,1612579908,vhdl,,,,mux_de_y,,,,,,,,
+C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/REGA01.vhd,1612580005,vhdl,,,,reg_de_x,,,,,,,,
+C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/REGB01.vhd,1612580211,vhdl,,,,reg_de_y,,,,,,,,
+C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/REGDESEL.vhd,1612562399,vhdl,,,,regdesel,,,,,,,,
+C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/REGSAL0.vhd,1612578718,vhdl,,,,reg_salida,,,,,,,,
+C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/RES_A.vhd,1612580485,vhdl,,,,res_de_x,,,,,,,,
+C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/RES_B.vhd,1612580535,vhdl,,,,res_de_y,,,,,,,,
+C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/SUM_A.vhd,1612580380,vhdl,,,,sum_de_x,,,,,,,,
+C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/SUM_B.vhd,1612580430,vhdl,,,,sum_de_y,,,,,,,,
+C:/Users/Ponce/Desktop/finalAlfin/finalAlfin.srcs/sources_1/new/U_CONTROL.vhd,1612580675,vhdl,,,,u_c,,,,,,,,
